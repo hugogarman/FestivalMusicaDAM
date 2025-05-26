@@ -8,7 +8,7 @@ public class Festival {
 
     public Festival(String nombre) {
         this.nombre = nombre;
-        this.conciertos = conciertos;
+        this.conciertos = new ArrayList<>();
     }
 
     public void addConcierto(Concierto concierto) {
